@@ -1,0 +1,44 @@
+.home {
+  background-color: var(--backdrop-bg-color);
+  min-height: calc(100vh - 180px);
+}
+
+img {
+  box-shadow: 0 0 20px var(--third-bg-color);
+  border-radius: 5px;
+}
+.linkHome {
+  text-align: center;
+  display: block;
+  font-weight: 400;
+  font-size: 50px;
+  margin-left: 90px;
+  color: #742fa5;
+}
+.linkHome:hover {
+  color: var(--blue);
+}
+.imgContainer {
+  position: relative;
+  height: 659px;
+  width: 1248px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 18px;
+  overflow: hidden;
+}
+
+.textContainer {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  color: var(--white);
+  transition: left 0.5s ease-in-out;
+}
+
+.mainText {
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: var(--blue);
+}
