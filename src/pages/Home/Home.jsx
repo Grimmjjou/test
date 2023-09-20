@@ -12,7 +12,7 @@ const Home = () => {
           alt="Car"
         />
         <div className={styles.textContainer}>
-          <p className={styles.mainText}>Choose Car. Feeling drive </p>
+          <p className={styles.mainText}>Choose Car. Feeling drive!!! </p>
           <NavLink to="/catalog" className={styles.linkHome}>
             Catalog
           </NavLink>
